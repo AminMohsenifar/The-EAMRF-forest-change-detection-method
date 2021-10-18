@@ -5,7 +5,7 @@
 Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., In press, A Novel Unsupervised Forest Change Detection Method Based on The Integration of a Multiresolution Singular Value Decomposition Fusion and an Edge-Aware Markov Random Field Algorithm. International Journal of Remote Sensing, doi:10.1080/01431161.2021.1995075.
 
 *** If you have any queries, don't hesitate and feel free to contact me at "a.mohsenifar97@gmail.com".
----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 2. Description
 
@@ -28,7 +28,7 @@ Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., In press, A Novel
 2.3. The function 'EAMRF' returns the binary change map 'L_EAMRF' in which the labels 1 and 2 represent the changed and unchanged areas, respectively.
 
 2.4. The function 'Evaluation' compares the produced change map with the ground truth data to give you a report of the quantitative results.
----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 All the best!
 
