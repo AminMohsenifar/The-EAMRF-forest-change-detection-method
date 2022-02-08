@@ -27,7 +27,7 @@ Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., In press, A Novel
 
 2.3. The function 'EAMRF' returns the binary change map 'L_EAMRF' in which the labels 1 and 2 represent the changed and unchanged areas, respectively.
 
-2.4. The function 'Evaluation' compares the produced change map with the ground truth data to give you a report of the quantitative results.
+2.4. The function 'Evaluation' compares the produced change map with the ground truth data to provide a quantitative validation report.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 All the best!
