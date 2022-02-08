@@ -30,6 +30,6 @@ Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., In press, A Novel
 2.4. The function 'Evaluation' compares the produced change map with the ground truth data to provide a quantitative validation report.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-All the best!
+Best.
 
 Amin Mohsenifar
