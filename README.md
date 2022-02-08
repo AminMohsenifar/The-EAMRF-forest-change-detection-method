@@ -3,4 +3,5 @@ This repository contains the MATLAB code of the EAMRF forest change detection me
 Required information about the code has been also elaborated in a notepad file named README.txt in a folder in which the code exists.
 # Overview
 The code detects forest changes by applying an edge-aware MRF (EAMRF) model on a difference image obtained from the fusion of vegetation indices- and spectral information-based  change information. 
+
 being completed ...
