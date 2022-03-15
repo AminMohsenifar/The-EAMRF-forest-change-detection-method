@@ -9,8 +9,8 @@ ImgName2='D1_S2_20200630.tif';
 TestName='D1_Test.tif';
 Sensor='S2';
 %--------------------------------------------
-Image1=imread(ImgName1);
-Image2=imread(ImgName2);
+Image1=double(imread(ImgName1));
+Image2=double(imread(ImgName2));
 TestData=imread(TestName);
 %% Step 1
 tic
