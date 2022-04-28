@@ -25,7 +25,7 @@ Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., 2021, A Novel Uns
         
 2.2. The function 'GenerateD_F' takes the variables 'Image1', 'Image2', and 'Sensor' to compute the proposed difference image 'D_F'.
 
-2.3. The function 'EAMRF' returns the binary change map 'L_EAMRF' in which the labels 1 and 2 represent the changed and unchanged areas, respectively.
+2.3. The function 'EAMRFm' returns the binary change map 'L_EAMRF' in which the labels 1 and 2 represent the changed and unchanged areas, respectively.
 
 2.4. The function 'Evaluation' compares the produced change map with the ground truth data to provide a quantitative validation report.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
