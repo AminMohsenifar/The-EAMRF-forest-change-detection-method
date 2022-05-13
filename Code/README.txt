@@ -1,6 +1,6 @@
 1. Contact and Citation
 
-* If you utilize any part of the provided codes or free datasets in scientific research or as part of a more extensive software system, please provide the following citation in related publications or technical documentation:
+* If you utilize any part of the provided codes or datasets in scientific research or as part of a more extensive software system, please provide the following citation in related publications or technical documentation:
 
 Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., 2021, A Novel Unsupervised Forest Change Detection Method Based on The Integration of a Multiresolution Singular Value Decomposition Fusion and an Edge-Aware Markov Random Field Algorithm. International Journal of Remote Sensing, doi:10.1080/01431161.2021.1995075.
 
@@ -9,7 +9,7 @@ Mohsenifar, A., Mohammadzadeh, A., Moghimi, A. and Salehi, B., 2021, A Novel Uns
 
 2. Description
 
-2.1. The present source code contains two major steps. In the first step, an integrated difference image is formed by fusing two difference images computed based on the spectral (reflectance) data (Ds) and vegetation indices (Dv). In this regard, it's worth mentioning that any of the vegetation indices must be normalized between 0 and 1 before they are used to compute the vegetation indices-based difference image (Dv). In the second step, the EAMRF model is applied to the fused difference image in order to produce a binary change map. As a remark, the MATLAB code of the second step (i.e. EAMRF function) could also be evaluated in any unsupervised change detection research as a comparative decision-making algorithm.
+2.1. The present closed code contains two major steps. In the first step, an integrated difference image is formed by fusing two difference images computed based on the spectral (reflectance) data (Ds) and vegetation indices (Dv). In this regard, it's worth mentioning that any of the vegetation indices must be normalized between 0 and 1 before they are used to compute the vegetation indices-based difference image (Dv). In the second step, the EAMRF model is applied to the fused difference image in order to produce a binary change map. As a remark, the MATLAB code of the second step (i.e. EAMRF function) could also be evaluated in any unsupervised change detection research as a comparative decision-making algorithm.
 
      The inputs required to run the code involve the variables 'ImgName1', 'ImgName2', 'TestName', and 'Sensor', where the three formers characterize the names of the tiff-formatted pre-change, post-change, and ground truth images, respectively, and the latter also signifies the satellite sensor name. In detail, the ground truth data signifies the changed and unchanged pixels labeled as 1 and 2, respectively. Moreover, the sensors for which the present code is developed are Sentinel-2 (S2), Landsat-5 (L5), and Landsat-8 (L8), whose bands must be in the following order of priority:
         
